@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Root"
+    }
+  ],
+  "settings": {
+    "terminal.integrated.profiles.windows": {
+      "Custom Bash": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "args": ["--rcfile", ".bashrc"]
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "Custom Bash",
+    "files.eol": "\n",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorCustomizations": {
+      "titleBar.inactiveBackground": "#ff0000",
+      "titleBar.inactiveForeground": "#ffffff"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "search.exclude": {
+      "**/*.bak": true,
+      "**/pnpm-lock.yaml": true
+    },
+    "explorer.copyRelativePathSeparator": "/"
+  }
+}

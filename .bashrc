@@ -1,0 +1,5 @@
+alias bb=". .bashrc"
+alias cls="clear; clear"
+alias k="taskkill -F -IM $1"
+alias tg="TortoiseGitProc /command:log /path:. &"
+alias start="cls; pnpm start"
